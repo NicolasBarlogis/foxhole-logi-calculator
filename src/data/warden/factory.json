@@ -386,7 +386,7 @@
     "hemat": 0,
     "rmat": 0,
     "perCrate": 15,
-    "productionTime": null,
+    "productionTime": 75,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": []

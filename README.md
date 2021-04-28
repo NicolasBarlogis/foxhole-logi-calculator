@@ -8,7 +8,7 @@ I still miss some data to make this tool exhaustive. If you have any info, feel 
 - Missing formula for time estimation in the MPF (!)
 - Incorrect icon for 'vehicle' category in MPF
 - Incorrect icon for 'shippable' category in MPF
-- Missing production time for 'BF5 White Ash Flask Grenade'
+- ~~Missing production time for 'BF5 White Ash Flask Grenade'~~ --> 75 seconds
 - Missing production time for 'Malone MKK.2'
 - Missing production time for 'Bonesaw MK.3'
 - Missing production time for 'Mounted Bonesaw MK.3'
