@@ -1,0 +1,57 @@
+[
+  {
+    "category": "vehicle",
+    "key": "aquatipper",
+    "name": "BMS – Aquatipper",
+    "bmat": 150,
+    "emat": 0,
+    "hemat": 0,
+    "rmat": 0,
+    "requireTech": false,
+    "ammo": []
+  },
+  {
+    "category": "vehicle",
+    "key": "ironship",
+    "name": "BMS – Ironship",
+    "bmat": 500,
+    "emat": 0,
+    "hemat": 0,
+    "rmat": 0,
+    "requireTech": true,
+    "ammo": []
+  },
+  {
+    "category": "vehicle",
+    "key": "meteora",
+    "name": "74c-2 Ronan Meteora Gunship",
+    "bmat": 0,
+    "emat": 0,
+    "hemat": 0,
+    "rmat": 160,
+    "requireTech": true,
+    "ammo": ["120"]
+  },
+  {
+    "category": "vehicle",
+    "key": "ronan",
+    "name": "74b-1 Ronan Gunship",
+    "bmat": 0,
+    "emat": 0,
+    "hemat": 0,
+    "rmat": 160,
+    "requireTech": true,
+    "ammo": ["120","14.5"]
+  },
+  {
+    "category": "vehicle",
+    "key": "whale",
+    "name": "BMS – White Whale",
+    "bmat": 0,
+    "emat": 0,
+    "hemat": 0,
+    "rmat": 100,
+    "requireTech": true,
+    "ammo": []
+  }
+]

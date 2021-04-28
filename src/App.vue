@@ -1,28 +1,57 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <v-main>
+      <Banner/>
+      <MassProductionFactory/>
+      <div class="divider"></div>
+      <Factory/>
+      <div class="divider"></div>
+      <Garage/>
+      <div class="divider"></div>
+      <ConstructionYard/>
+      <div class="divider"></div>
+      <Shipyard/>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Banner from './components/Banner';
+import MassProductionFactory from './components/MassProductionFactory';
+import Factory from './components/Factory';
+import Garage from './components/Garage';
+import ConstructionYard from './components/ConstructionYard';
+import Shipyard from './components/Shipyard';
+
+/*
+ * wrong icon for shippable
+ * active vehicle icon bad color
+ */
 
 export default {
   name: 'App',
+
   components: {
-    HelloWorld
-  }
-}
+    Banner,
+    MassProductionFactory,
+    Factory,
+    Garage,
+    ConstructionYard,
+    Shipyard
+  },
+
+  data: () => ({
+    //
+  }),
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style type="text/css">
+  #app {
+    background-color: #050505;
+    color: #fff;
+  }
+  .divider {
+    margin-top: 70px;
+  }
 </style>

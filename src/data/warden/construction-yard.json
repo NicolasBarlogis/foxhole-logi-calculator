@@ -1,0 +1,79 @@
+[
+  {
+    "category": "shippable",
+    "key": "mixer",
+    "name": "Concret Mixer",
+    "bmat": 0,
+    "emat": 0,
+    "hemat": 0,
+    "rmat": 75,
+    "requireTech": true,
+    "ammo": []
+  },
+  {
+    "category": "shippable",
+    "key": "atcannon",
+    "name": "68mm Anti-Tank Cannon",
+    "bmat": 150,
+    "emat": 0,
+    "hemat": 0,
+    "rmat": 0,
+    "requireTech": true,
+    "ammo": ["68"]
+  },
+  {
+    "category": "shippable",
+    "key": "exalt",
+    "name": "Huber Exalt 150mm",
+    "bmat": 0,
+    "emat": 0,
+    "hemat": 0,
+    "rmat": 175,
+    "requireTech": true,
+    "ammo": ["150"]
+  },
+  {
+    "category": "shippable",
+    "key": "lariat",
+    "name": "Huber Lariat 120mm",
+    "bmat": 0,
+    "emat": 0,
+    "hemat": 0,
+    "rmat": 35,
+    "requireTech": false,
+    "ammo": ["120"]
+  },
+  {
+    "category": "shippable",
+    "key": "flak-sama",
+    "name": "14.5 Anti Infantry Flak Gun",
+    "bmat": 0,
+    "emat": 0,
+    "hemat": 0,
+    "rmat": 0,
+    "requireTech": true,
+    "ammo": ["14.5"]
+  },
+  {
+    "category": "shippable",
+    "key": "rcontainer",
+    "name": "Ressource Container",
+    "bmat": 50,
+    "emat": 0,
+    "hemat": 0,
+    "rmat": 0,
+    "requireTech": false,
+    "ammo": []
+  },
+  {
+    "category": "shippable",
+    "key": "scontainer",
+    "name": "Shipping container",
+    "bmat": 100,
+    "emat": 0,
+    "hemat": 0,
+    "rmat": 0,
+    "requireTech": false,
+    "ammo": []
+  }
+]
