@@ -32,7 +32,7 @@
                     class="item-bg text-center"
                   >
                     <v-img
-                      :src="'/icons/' + item.key + '.png'"
+                      :src="'icons/' + item.key + '.png'"
                       :alt="item.key"
                       class="item-img"
                       max-height="60"
@@ -71,10 +71,10 @@
     methods: {
       costToString: function(cost) {
         let response = ""
-        response += (cost.bmat > 0)?(cost.bmat.toLocaleString('en')+"<img src=\"/icons/bmat.png\" alt=\"bmat\" title=\"bmat\" class=\"mat-icon\"/>"):""
-        response += (cost.emat > 0)?(cost.emat.toLocaleString('en')+"<img src=\"/icons/emat.png\" alt=\"emat\" title=\"emat\" class=\"mat-icon\"/>"):""
-        response += (cost.hemat > 0)?(cost.hemat.toLocaleString('en')+"<img src=\"/icons/hemat.png\" alt=\"hemat\" title=\"hemat\" class=\"mat-icon\"/>"):""
-        response += (cost.rmat > 0)?(cost.rmat.toLocaleString('en')+"<img src=\"/icons/rmat.png\" alt=\"rmat\" title=\"rmat\" class=\"mat-icon\"/>"):""
+        response += (cost.bmat > 0)?(cost.bmat.toLocaleString('en')+"<img src=\"icons/bmat.png\" alt=\"bmat\" title=\"bmat\" class=\"mat-icon\"/>"):""
+        response += (cost.emat > 0)?(cost.emat.toLocaleString('en')+"<img src=\"icons/emat.png\" alt=\"emat\" title=\"emat\" class=\"mat-icon\"/>"):""
+        response += (cost.hemat > 0)?(cost.hemat.toLocaleString('en')+"<img src=\"icons/hemat.png\" alt=\"hemat\" title=\"hemat\" class=\"mat-icon\"/>"):""
+        response += (cost.rmat > 0)?(cost.rmat.toLocaleString('en')+"<img src=\"icons/rmat.png\" alt=\"rmat\" title=\"rmat\" class=\"mat-icon\"/>"):""
         return response
       }
     }

@@ -27,7 +27,7 @@
             :key="category.name"
           >
             <v-img
-              :src="((tab == categoryId)?'/icons/' + category.name + '-active.png':'/icons/' + category.name + '.png')"
+              :src="((tab == categoryId)?'icons/' + category.name + '-active.png':'icons/' + category.name + '.png')"
               :alt="category.name"
               max-height="40"
               max-width="40"
@@ -61,7 +61,7 @@
                         class="item-bg text-center"
                       >
                         <v-img
-                          :src="'/icons/' + item.key + '.png'"
+                          :src="'icons/' + item.key + '.png'"
                           :alt="item.key"
                           class="item-img"
                           max-height="60"
@@ -111,7 +111,7 @@
           >
             <div class="queue-items">
               <v-img
-                :src="'/icons/' + category.name + '.png'"
+                :src="'icons/' + category.name + '.png'"
                 :alt="category.name"
                 max-height="45"
                 max-width="45"
@@ -125,7 +125,7 @@
               >
                 <template v-slot:activator="{ on, attrs }">
                   <v-img
-                    :src="'/icons/' + item.key + '.png'"
+                    :src="'icons/' + item.key + '.png'"
                     :alt="item.key"
                     max-height="35"
                     max-width="35"
@@ -263,10 +263,10 @@
       },
       costToString: function(cost) {
         let response = ""
-        response += (cost.bmat > 0)?(cost.bmat.toLocaleString('en')+"<img src=\"/icons/bmat.png\" alt=\"bmat\" title=\"bmat\" class=\"mat-icon\"/>"):""
-        response += (cost.emat > 0)?(cost.emat.toLocaleString('en')+"<img src=\"/icons/emat.png\" alt=\"emat\" title=\"emat\" class=\"mat-icon\"/>"):""
-        response += (cost.hemat > 0)?(cost.hemat.toLocaleString('en')+"<img src=\"/icons/hemat.png\" alt=\"hemat\" title=\"hemat\" class=\"mat-icon\"/>"):""
-        response += (cost.rmat > 0)?(cost.rmat.toLocaleString('en')+"<img src=\"/icons/rmat.png\" alt=\"rmat\" title=\"rmat\" class=\"mat-icon\"/>"):""
+        response += (cost.bmat > 0)?(cost.bmat.toLocaleString('en')+"<img src=\"icons/bmat.png\" alt=\"bmat\" title=\"bmat\" class=\"mat-icon\"/>"):""
+        response += (cost.emat > 0)?(cost.emat.toLocaleString('en')+"<img src=\"icons/emat.png\" alt=\"emat\" title=\"emat\" class=\"mat-icon\"/>"):""
+        response += (cost.hemat > 0)?(cost.hemat.toLocaleString('en')+"<img src=\"icons/hemat.png\" alt=\"hemat\" title=\"hemat\" class=\"mat-icon\"/>"):""
+        response += (cost.rmat > 0)?(cost.rmat.toLocaleString('en')+"<img src=\"icons/rmat.png\" alt=\"rmat\" title=\"rmat\" class=\"mat-icon\"/>"):""
         return response
       },
       timeToString: function(time) {
