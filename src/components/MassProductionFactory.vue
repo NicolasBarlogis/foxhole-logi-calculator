@@ -342,7 +342,7 @@
     width: 35px;
     margin: 2px;
     cursor: pointer;
-    z-index:999!important;
+    z-index:5!important;
   }  
   .queue-count {
     background-color: #464646;
