@@ -207,7 +207,13 @@
       addToQueue: function(categoryId, itemKey) {
         if(this.queues[categoryId].quantity === 0 || this.queues[categoryId].item.key === itemKey) {
           this.queues[categoryId].item = this.dataByKey[itemKey]
-          this.queues[categoryId].quantity++
+          // ici on limite comme en réel, le calcul ne marche pas passé 9 ou 5
+          if((["vehicle","shippable"].includes(this.queues[categoryId].item.category) 
+            && this.queues[categoryId].quantity < 5 ) || 
+            (!["vehicle","shippable"].includes(this.queues[categoryId].item.category) 
+            && this.queues[categoryId].quantity < 9)) {
+            this.queues[categoryId].quantity++
+          }
         }
       },
       removeFromQueue: function(categoryId) {
