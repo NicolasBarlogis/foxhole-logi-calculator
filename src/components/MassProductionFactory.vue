@@ -221,6 +221,25 @@
           hemat: 0,
           rmat: 0
         }
+        let noDiscountCost
+        if(this.queues[categoryId].quantity > 0) {
+          // vehicles and shippables by crates of 3
+          if(["vehicle","shippable"].includes(this.queues[categoryId].item.category)) {
+            noDiscountCost = {
+              bmat: this.queues[categoryId].item.bmat * this.queues[categoryId].quantity * 3,
+              emat: this.queues[categoryId].item.emat * this.queues[categoryId].quantity * 3,
+              hemat: this.queues[categoryId].item.hemat * this.queues[categoryId].quantity * 3,
+              rmat: this.queues[categoryId].item.rmat * this.queues[categoryId].quantity * 3
+            }
+          } else {
+            noDiscountCost = {
+              bmat: this.queues[categoryId].item.bmat * this.queues[categoryId].quantity,
+              emat: this.queues[categoryId].item.emat * this.queues[categoryId].quantity,
+              hemat: this.queues[categoryId].item.hemat * this.queues[categoryId].quantity,
+              rmat: this.queues[categoryId].item.rmat * this.queues[categoryId].quantity
+            }
+          }
+        }
         let discount = 0
         for(let i = 1 ; i <= this.queues[categoryId].quantity ; i++) {
           // max 50% off
@@ -240,7 +259,8 @@
           }
         }
         let response = this.costToString(cost)
-        return (response.length>0)?(response+ " ("+(discount/this.queues[categoryId].quantity*100).toFixed(1)+"% discount)"):""
+        return (response.length>0)?(response+ " instead of "+this.costToString(noDiscountCost)+
+          "("+(discount/this.queues[categoryId].quantity*100).toFixed(1)+"% discount)"):""
       },
       getQueueDuration: function(categoryId) {
         return categoryId
