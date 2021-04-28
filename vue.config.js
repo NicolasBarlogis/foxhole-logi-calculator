@@ -1,6 +1,7 @@
 const Mode = require('frontmatter-markdown-loader/mode')
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production' ? '/foxhole-logi-calculator/' : '/',
   transpileDependencies: [
     'vuetify'
   ],
