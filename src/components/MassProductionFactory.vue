@@ -168,16 +168,17 @@
     created: function() {
       let context = this
       // assemble data for MPF
-      let factoryAuthorizedCategory = ["basic","explosive"]
-      dataFactory.forEach(function(item) {
-        if(factoryAuthorizedCategory.includes(item.category)) {
+      let tempData = dataFactory
+      tempData.push(...dataGarage)
+      tempData.push(...dataShipyard)
+      tempData.push(...dataMPF)
+      tempData.push(...dataConstructionYard)
+      tempData.forEach(function(item) {
+        if(item.craftableInMpf) {
           context.rawData.push(item)
         }
       })
-      this.rawData.push(...dataGarage)
-      this.rawData.push(...dataShipyard)
-      this.rawData.push(...dataMPF)
-      this.rawData.push(...dataConstructionYard)
+      
 
       // init queues and sorted data
       let activeCategory =  0 

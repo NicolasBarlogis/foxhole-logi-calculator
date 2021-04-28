@@ -9,6 +9,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 50,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["0.44"]
   },
@@ -22,6 +23,7 @@
     "rmat": 0,
     "perCrate": 40,
     "productionTime": 40,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -35,6 +37,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 70,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": ["7.62"]
   },
@@ -48,6 +51,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 80,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["7.62"]
   },
@@ -61,6 +65,7 @@
     "rmat": 0,
     "perCrate": 40,
     "productionTime": 50,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -74,6 +79,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 80,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["9"]
   },
@@ -87,6 +93,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 80,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["9"]
   },
@@ -100,6 +107,7 @@
     "rmat": 0,
     "perCrate": 40,
     "productionTime": 50,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -113,6 +121,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 80,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["buckshot"]
   },
@@ -126,6 +135,7 @@
     "rmat": 0,
     "perCrate": 40,
     "productionTime": 50,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -139,6 +149,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 100,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["7.92"]
   },
@@ -152,6 +163,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 80,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["7.92"]
   },
@@ -165,6 +177,7 @@
     "rmat": 0,
     "perCrate": 30,
     "productionTime": 60,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -178,6 +191,7 @@
     "rmat": 15,
     "perCrate": 5,
     "productionTime": 125,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["8.5"]
   },
@@ -191,6 +205,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 100,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -204,6 +219,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 75,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
   },
@@ -217,6 +233,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 50,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["8"]
   },
@@ -230,6 +247,7 @@
     "rmat": 0,
     "perCrate": 40,
     "productionTime": 20,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -243,6 +261,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 70,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -256,6 +275,7 @@
     "rmat": 25,
     "perCrate": 5,
     "productionTime": 50,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["mortarshell","mortaarshrapnelshell","mortarflareshell"]
   },
@@ -269,6 +289,7 @@
     "rmat": 0,
     "perCrate": 15,
     "productionTime": 112,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -282,6 +303,7 @@
     "rmat": 0,
     "perCrate": 15,
     "productionTime": 112,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
   },
@@ -295,6 +317,7 @@
     "rmat": 0,
     "perCrate": 15,
     "productionTime": 112,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
   },
@@ -308,6 +331,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 100,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
   },
@@ -321,6 +345,7 @@
     "rmat": 25,
     "perCrate": 5,
     "productionTime": 50,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["rpgshell"]
   },
@@ -334,6 +359,7 @@
     "rmat": 0,
     "perCrate": 15,
     "productionTime": 112,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -347,6 +373,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 75,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -360,6 +387,7 @@
     "rmat": 0,
     "perCrate": 15,
     "productionTime": null,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
   },
@@ -373,6 +401,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 80,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -386,6 +415,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 100,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -399,6 +429,7 @@
     "rmat": 0,
     "perCrate": 5,
     "productionTime": 37,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["13.5"]
   },
@@ -412,6 +443,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 100,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -425,6 +457,7 @@
     "rmat": 0,
     "perCrate": 5,
     "productionTime": 55,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -438,6 +471,7 @@
     "rmat": 0,
     "perCrate": 5,
     "productionTime": 65,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -451,6 +485,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 100,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -464,6 +499,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 200,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -477,6 +513,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 200,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -490,6 +527,7 @@
     "rmat": 0,
     "perCrate": 5,
     "productionTime": 150,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -503,6 +541,7 @@
     "rmat": 200,
     "perCrate": 1,
     "productionTime": 600,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": []
   },
@@ -516,6 +555,7 @@
     "rmat": 0,
     "perCrate": 5,
     "productionTime": 125,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": []
   },
@@ -529,6 +569,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 100,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -542,6 +583,7 @@
     "rmat": 30,
     "perCrate": 10,
     "productionTime": null,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["12.7"]
   },
@@ -555,6 +597,7 @@
     "rmat": 0,
     "perCrate": 15,
     "productionTime": 112,
+    "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
   },
@@ -568,6 +611,7 @@
     "rmat": 25,
     "perCrate": 5,
     "productionTime": null,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["atrpginshell"]
   },
@@ -581,6 +625,7 @@
     "rmat": 0,
     "perCrate": 5,
     "productionTime": null,
+    "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["atrpginshell"]
   },
@@ -594,6 +639,7 @@
     "rmat": 0,
     "perCrate": 5,
     "productionTime": 50,
+    "craftableInMpf": false,
     "requireTech": true,
     "ammo": []
   },
@@ -607,6 +653,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 100,
+    "craftableInMpf": false,
     "requireTech": true,
     "ammo": ["gasfilter"]
   },
@@ -620,6 +667,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 50,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": []
   },
@@ -633,6 +681,7 @@
     "rmat": 0,
     "perCrate": 5,
     "productionTime": 50,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": []
   },
@@ -646,6 +695,7 @@
     "rmat": 0,
     "perCrate": 5,
     "productionTime": 50,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": []
   },
@@ -659,6 +709,7 @@
     "rmat": 0,
     "perCrate": 5,
     "productionTime": 75,
+    "craftableInMpf": false,
     "requireTech": true,
     "ammo": []
   },
@@ -672,6 +723,7 @@
     "rmat": 0,
     "perCrate": 20,
     "productionTime": 30,
+    "craftableInMpf": false,
     "requireTech": true,
     "ammo": []
   },
@@ -685,6 +737,7 @@
     "rmat": 0,
     "perCrate": 5,
     "productionTime": null,
+    "craftableInMpf": false,
     "requireTech": true,
     "ammo": []
   },
@@ -698,6 +751,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 100,
+    "craftableInMpf": false,
     "requireTech": true,
     "ammo": []
   },
@@ -711,6 +765,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 100,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": []
   },
@@ -724,6 +779,7 @@
     "rmat": 800,
     "perCrate": 1,
     "productionTime": 600,
+    "craftableInMpf": false,
     "requireTech": true,
     "ammo": []
   },
@@ -737,6 +793,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 100,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": []
   },
@@ -750,6 +807,7 @@
     "rmat": 0,
     "perCrate": 5,
     "productionTime": 60,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": []
   },
@@ -763,6 +821,7 @@
     "rmat": 0,
     "perCrate": 80,
     "productionTime": 100,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": []
   },
@@ -776,6 +835,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 35,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": ["bandage"]
   },
@@ -789,6 +849,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 40,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": ["plasma"]
   },
@@ -802,6 +863,7 @@
     "rmat": 0,
     "perCrate": 80,
     "productionTime": 50,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": []
   },
@@ -815,6 +877,7 @@
     "rmat": 0,
     "perCrate": 10,
     "productionTime": 80,
+    "craftableInMpf": false,
     "requireTech": false,
     "ammo": []
   },
@@ -828,6 +891,7 @@
     "rmat": 0,
     "perCrate": 150,
     "productionTime": 225,
+    "craftableInMpf": false,
     "requireTech": true,
     "ammo": []
   },
@@ -841,6 +905,7 @@
     "rmat": 0,
     "perCrate": 150,
     "productionTime": 225,
+    "craftableInMpf": false,
     "requireTech": true,
     "ammo": []
   }
