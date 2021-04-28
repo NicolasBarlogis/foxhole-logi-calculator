@@ -47,7 +47,7 @@
     "category": "shippable",
     "key": "flak-sama",
     "name": "14.5 Anti Infantry Flak Gun",
-    "bmat": 0,
+    "bmat": 75,
     "emat": 0,
     "hemat": 0,
     "rmat": 0,

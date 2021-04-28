@@ -193,7 +193,7 @@
     "bmat": 0,
     "emat": 0,
     "hemat": 0,
-    "rmat": 400,
+    "rmat": 20,
     "requireTech": true,
     "ammo": []
   },
