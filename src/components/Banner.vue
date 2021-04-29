@@ -49,7 +49,6 @@
       readme: ""
     }),
     created: function() {
-      console.log(readmeMd)
       this.readme = readmeMd.html
     }
   }

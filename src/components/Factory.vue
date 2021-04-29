@@ -152,7 +152,7 @@
 </template>
 
 <script>
-  import data from "./../data/warden/factory.json";
+  import factoryData from "./../data/warden/factory.json";
 
   export default {
     name: 'Factory',
@@ -167,11 +167,11 @@
       let context = this
       let activeCategory =  0 
       this.dataByCategory[0] = {
-        name: data[0].category,
+        name: factoryData[0].category,
         items: []
       }
       this.$set(this.queues, 0, [])
-      data.forEach(function(item) {
+      factoryData.forEach(function(item) {
         context.dataByKey[item.key] = item
         if(context.dataByCategory[activeCategory].name !== item.category) {
           activeCategory++

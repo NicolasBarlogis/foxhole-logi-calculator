@@ -57,7 +57,7 @@
 </template>
 
 <script>
-  import data from "./../data/warden/shipyard.json";
+  import shipyardData from "./../data/warden/shipyard.json";
 
   export default {
     name: 'Shipyard',
@@ -66,7 +66,7 @@
       items: []
     }),
     created: function() {
-      this.items = data
+      this.items = shipyardData
     },
     methods: {
       costToString: function(cost) {

@@ -168,7 +168,8 @@
     created: function() {
       let context = this
       // assemble data for MPF
-      let tempData = dataFactory
+      let tempData = []
+      tempData.push(...dataFactory)
       tempData.push(...dataGarage)
       tempData.push(...dataShipyard)
       tempData.push(...dataMPF)
@@ -199,9 +200,6 @@
         }
         context.dataByCategory[activeCategory].items.push(item)
       })
-      console.log(this.dataByKey)
-      console.log(this.dataByCategory)
-      console.log(this.queues)
     },
     methods: {
       addToQueue: function(categoryId, itemKey) {

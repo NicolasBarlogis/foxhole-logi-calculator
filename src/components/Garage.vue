@@ -57,7 +57,7 @@
 </template>
 
 <script>
-  import data from "./../data/warden/garage.json";
+  import garageData from "./../data/warden/garage.json";
 
   export default {
     name: 'Garage',
@@ -66,7 +66,7 @@
       items: []
     }),
     created: function() {
-      this.items = data
+      this.items = garageData
     },
     methods: {
       costToString: function(cost) {
