@@ -133,6 +133,7 @@
                     class="queue-item"
                     v-bind="attrs"
                     v-on="on"
+                    v-bind:class="{ 'last-item-bloc': (i%4 === 3), 'odd-bloc': (Math.floor(i/4)%2 === 1) }"
                   />
                 </template>
                 {{ item.name }}
@@ -332,7 +333,13 @@
     width: 35px;
     margin: 2px;
     cursor: pointer;
-  }  
+  }
+  .last-item-bloc {
+    margin-right: 15px;
+  }
+  .odd-bloc {
+    background-color: #464646;
+  }
   .queue-count {
     background-color: #464646;
     min-height: 20px;
