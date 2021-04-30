@@ -252,15 +252,15 @@
           discount += 0.1 * Math.min(i, 5)
           // vehicles and shippables by crates of 3
           if(["vehicle","shippable"].includes(this.queues[categoryId].item.category)) {
-            cost.bmat += (this.queues[categoryId].item.bmat * 3) * costLeft
-            cost.emat += (this.queues[categoryId].item.emat * 3) * costLeft
-            cost.hemat += (this.queues[categoryId].item.hemat * 3) * costLeft
-            cost.rmat += (this.queues[categoryId].item.rmat * 3) * costLeft
+            cost.bmat += Math.floor((this.queues[categoryId].item.bmat * 3) * costLeft)
+            cost.emat += Math.floor((this.queues[categoryId].item.emat * 3) * costLeft)
+            cost.hemat += Math.floor((this.queues[categoryId].item.hemat * 3) * costLeft)
+            cost.rmat += Math.floor((this.queues[categoryId].item.rmat * 3) * costLeft)
           } else {
-            cost.bmat += this.queues[categoryId].item.bmat * costLeft
-            cost.emat += this.queues[categoryId].item.emat * costLeft
-            cost.hemat += this.queues[categoryId].item.hemat * costLeft
-            cost.rmat += this.queues[categoryId].item.rmat * costLeft
+            cost.bmat += Math.floor(this.queues[categoryId].item.bmat * costLeft)
+            cost.emat += Math.floor(this.queues[categoryId].item.emat * costLeft)
+            cost.hemat += Math.floor(this.queues[categoryId].item.hemat * costLeft)
+            cost.rmat += Math.floor(this.queues[categoryId].item.rmat * costLeft)
           }
         }
         let response = this.costToString(cost)
