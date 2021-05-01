@@ -41,7 +41,10 @@
                   </div>
                 </template>
                 <div>
-                  {{ item.name + ((item.requireTech)?" (Tech)":"")}}
+                  {{ item.name }}
+                  <span class="red--text">
+                    {{ ((item.requireTech)?" (Tech)":"") }}
+                  </span>
                 </div>
                 <div
                   v-html="costToString(item)"
