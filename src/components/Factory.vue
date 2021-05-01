@@ -70,7 +70,13 @@
                       </div>
                     </template>
                     <div>
-                      {{ item.name + ((item.requireTech)?" (Tech)":"")}}
+                      {{ item.name }}
+                      <b class="orange--text font-weight-black">
+                        x{{ item.perCrate }}
+                      </b>
+                      <span class="red--text">
+                        {{ ((item.requireTech)?" (Tech)":"") }}
+                      </span>
                     </div>
                     <div
                       v-html="costToString(item)"
@@ -137,6 +143,12 @@
                   />
                 </template>
                 {{ item.name }}
+                <b class="orange--text font-weight-black">
+                  x{{ item.perCrate }}
+                </b>
+                <span class="red--text">
+                  {{ ((item.requireTech)?" (Tech)":"") }}
+                </span>
               </v-tooltip>
             </div>
             <div class="queue-count">

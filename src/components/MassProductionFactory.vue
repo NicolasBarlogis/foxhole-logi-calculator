@@ -70,7 +70,13 @@
                       </div>
                     </template>
                     <div>
-                      {{ item.name + ((item.requireTech)?" (Tech)":"")}}
+                      {{ item.name }}
+                      <b class="orange--text font-weight-black">
+                        {{ (item.perCrate !== undefined)?("x" + item.perCrate):"" }}
+                      </b>
+                      <span class="red--text">
+                        {{ ((item.requireTech)?" (Tech)":"") }}
+                      </span>
                     </div>
                     <div
                       v-html="costToString(item)"
@@ -131,6 +137,12 @@
                     />
                   </template>
                   {{ queues[categoryId].item.name }}
+                  <b class="orange--text font-weight-black">
+                    {{ (queues[categoryId].item.perCrate !== undefined)?("x" + queues[categoryId].item.perCrate):"" }}
+                  </b>
+                  <span class="red--text">
+                    {{ ((queues[categoryId].item.requireTech)?" (Tech)":"") }}
+                  </span>
                 </v-tooltip>
                 <h3 class="vertical-center">
                   x  {{ queues[categoryId].quantity }}
