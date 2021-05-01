@@ -21,7 +21,7 @@
     "rmat": 40,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["7.92"]
   },
   {
     "category": "vehicle",
@@ -33,7 +33,7 @@
     "rmat": 60,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["40"]
   },
   {
     "category": "vehicle",
@@ -45,7 +45,7 @@
     "rmat": 45,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["7.92"]
   },
   {
     "category": "vehicle",
@@ -57,7 +57,7 @@
     "rmat": 490,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["12.7"]
   },
   {
     "category": "vehicle",
@@ -69,7 +69,7 @@
     "rmat": 470,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["12.7"]
   },
   {
     "category": "vehicle",
@@ -105,7 +105,7 @@
     "rmat": 160,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["68"]
   },
   {
     "category": "vehicle",
@@ -117,7 +117,7 @@
     "rmat": 30,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["68"]
   },
   {
     "category": "vehicle",
@@ -129,7 +129,7 @@
     "rmat": 30,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["40"]
   },
   {
     "category": "vehicle",
@@ -141,7 +141,7 @@
     "rmat": 25,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["14.5"]
   },
   {
     "category": "vehicle",
@@ -153,7 +153,7 @@
     "rmat": 35,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["250"]
   },
   {
     "category": "vehicle",
@@ -177,7 +177,7 @@
     "rmat": 85,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["68"]
   },
   {
     "category": "vehicle",
@@ -189,7 +189,7 @@
     "rmat": 60,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["12.7"]
   },
   {
     "category": "vehicle",
@@ -225,7 +225,7 @@
     "rmat": 150,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["mortarshell","mortaarshrapnelshell","mortarflareshell"]
   },
   {
     "category": "vehicle",
@@ -237,7 +237,7 @@
     "rmat": 160,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["40"]
   },
   {
     "category": "vehicle",
@@ -249,7 +249,7 @@
     "rmat": 140,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["40"]
   },
   {
     "category": "vehicle",
@@ -261,7 +261,7 @@
     "rmat": 170,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["40","68"]
   },
   {
     "category": "vehicle",
@@ -357,7 +357,7 @@
     "rmat": 80,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["12.7"]
   },
   {
     "category": "vehicle",
@@ -369,7 +369,7 @@
     "rmat": 15,
     "craftableInMpf": true,
     "requireTech": true,
-    "ammo": []
+    "ammo": ["7.92"]
   },
   {
     "category": "vehicle",

@@ -50,6 +50,10 @@
                   v-html="costToString(item)"
                   class="text-center"
                 />
+                <div
+                  v-html="ammoToString(item)"
+                  class="text-center"
+                />
               </v-tooltip>
             </v-col>
           </v-row>
@@ -61,15 +65,21 @@
 
 <script>
   import shipyardData from "./../data/warden/shipyard.json";
+  import factoryData from "./../data/warden/factory.json";
 
   export default {
     name: 'Shipyard',
 
     data: () => ({
-      items: []
+      items: [],
+      dataByKey: {} // factory data, for ammo
     }),
     created: function() {
       this.items = shipyardData
+      let context = this
+      factoryData.forEach(function(item) {
+        context.dataByKey[item.key] = item
+      })
     },
     methods: {
       costToString: function(cost) {
@@ -78,6 +88,18 @@
         response += (cost.emat > 0)?(cost.emat.toLocaleString('en')+"<img src=\"icons/emat.png\" alt=\"emat\" title=\"emat\" class=\"mat-icon\"/>"):""
         response += (cost.hemat > 0)?(cost.hemat.toLocaleString('en')+"<img src=\"icons/hemat.png\" alt=\"hemat\" title=\"hemat\" class=\"mat-icon\"/>"):""
         response += (cost.rmat > 0)?(cost.rmat.toLocaleString('en')+"<img src=\"icons/rmat.png\" alt=\"rmat\" title=\"rmat\" class=\"mat-icon\"/>"):""
+        return response
+      },
+      ammoToString: function(item) {
+        if(item.ammo.length === 0) {
+          return ""
+        }
+        let response = "Use "
+        let context = this
+        item.ammo.forEach(function(ammo) {
+          response += context.dataByKey[ammo].name + "<img src=\"icons/" + ammo + ".png\" alt=\"" + 
+            context.dataByKey[ammo].name + "\" title=\"" + context.dataByKey[ammo].name + "\" class=\"mat-icon\"/>"
+        })
         return response
       }
     }
