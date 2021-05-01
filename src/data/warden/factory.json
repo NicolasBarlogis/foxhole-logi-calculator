@@ -582,7 +582,7 @@
     "hemat": 0,
     "rmat": 30,
     "perCrate": 10,
-    "productionTime": null,
+    "productionTime": 100,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["12.7"]
@@ -610,7 +610,7 @@
     "hemat": 0,
     "rmat": 25,
     "perCrate": 5,
-    "productionTime": null,
+    "productionTime": 50,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["atrpginshell"]
@@ -624,7 +624,7 @@
     "hemat": 0,
     "rmat": 0,
     "perCrate": 5,
-    "productionTime": null,
+    "productionTime": 250,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["atrpginshell"]
@@ -736,7 +736,7 @@
     "hemat": 15,
     "rmat": 0,
     "perCrate": 5,
-    "productionTime": null,
+    "productionTime": 100,
     "craftableInMpf": false,
     "requireTech": true,
     "ammo": []

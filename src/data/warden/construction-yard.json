@@ -44,7 +44,7 @@
     "hemat": 0,
     "rmat": 35,
     "craftableInMpf": true,
-    "requireTech": false,
+    "requireTech": true,
     "ammo": ["120"]
   },
   {
