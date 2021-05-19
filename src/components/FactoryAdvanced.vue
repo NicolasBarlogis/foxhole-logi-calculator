@@ -203,8 +203,8 @@
       ],
       queues: [],
       categoriesName: {
-        'basic': 'light ammunitions',
-        'explosive': 'heavy ammunitions',
+        'basic': 'light weapons',
+        'explosive': 'heavy weapons',
         'tool': 'utiilities',
         'heal': 'medical supplies',
         'garrison': 'supplies'
