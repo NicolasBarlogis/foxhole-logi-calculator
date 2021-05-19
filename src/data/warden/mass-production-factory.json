@@ -7,6 +7,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 0,
+    "mpfTime": 5000,
     "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
@@ -19,6 +20,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 0,
+    "mpfTime": 6250,
     "craftableInMpf": true,
     "requireTech": false,
     "ammo": []

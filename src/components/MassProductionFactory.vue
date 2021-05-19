@@ -156,6 +156,9 @@
             </div>
             <div class="queue-count">
               <span v-html="getQueueCost(categoryId)"/>
+              <span class="align-right">
+                {{ getQueueDuration(categoryId) }}
+              </span>
             </div>
           </v-col>
         </v-container>
@@ -284,7 +287,11 @@
           "("+(discount/this.queues[categoryId].quantity*100).toFixed(1)+"% discount)"):""
       },
       getQueueDuration: function(categoryId) {
-        return categoryId
+        let time = 0
+        if(this.queues[categoryId].quantity > 0) {
+          time = this.queues[categoryId].item.mpfTime * this.queues[categoryId].quantity  
+        }
+        return this.timeToString(time)
       },
       resetQueues: function() {
         let context = this
@@ -315,7 +322,10 @@
       timeToString: function(time) {
         let minutes = Math.floor(time / 60)
         let secondes = time % 60
+        let heures = Math.floor(minutes / 60)
+        minutes = minutes % 60
         let response = ""
+        response += (heures > 0)?(""+heures+"h "):""
         response += (minutes > 0)?(""+minutes+"min "):""
         response += (secondes > 0)?(""+secondes+"s"):""
         return response

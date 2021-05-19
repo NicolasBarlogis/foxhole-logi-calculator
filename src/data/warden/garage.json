@@ -7,6 +7,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 0,
+    "mpfTime": 7500,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
@@ -19,6 +20,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 40,
+    "mpfTime": 2000,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["7.92"]
@@ -31,6 +33,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 60,
+    "mpfTime": 3000,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["40"]
@@ -43,6 +46,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 45,
+    "mpfTime": 2250,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["7.92"]
@@ -55,6 +59,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 490,
+    "mpfTime": 0,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["12.7"]
@@ -67,6 +72,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 470,
+    "mpfTime": 0,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["12.7"]
@@ -79,6 +85,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 400,
+    "mpfTime": 0,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
@@ -91,6 +98,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 0,
+    "mpfTime": 5000,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
@@ -103,6 +111,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 160,
+    "mpfTime": 8000,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["68"]
@@ -115,6 +124,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 30,
+    "mpfTime": 1500,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["68"]
@@ -127,6 +137,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 30,
+    "mpfTime": 1500,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["40"]
@@ -139,6 +150,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 25,
+    "mpfTime": 1250,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["14.5"]
@@ -151,6 +163,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 35,
+    "mpfTime": 1750,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["250"]
@@ -163,6 +176,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 30,
+    "mpfTime": 1500,
     "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
@@ -175,6 +189,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 85,
+    "mpfTime": 4250,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["68"]
@@ -187,6 +202,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 60,
+    "mpfTime": 3000,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["12.7"]
@@ -199,6 +215,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 120,
+    "mpfTime": 6000,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
@@ -211,6 +228,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 20,
+    "mpfTime": 1000,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
@@ -223,6 +241,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 150,
+    "mpfTime": 7250,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["mortarshell","mortaarshrapnelshell","mortarflareshell"]
@@ -235,6 +254,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 160,
+    "mpfTime": 8000,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["40"]
@@ -247,6 +267,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 140,
+    "mpfTime": 7000,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["40"]
@@ -259,6 +280,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 170,
+    "mpfTime": 8500,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["40","68"]
@@ -271,6 +293,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 0,
+    "mpfTime": 4250,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
@@ -283,6 +306,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 0,
+    "mpfTime": 5000,
     "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
@@ -295,6 +319,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 0,
+    "mpfTime": 500,
     "craftableInMpf": true,
     "requireTech": false,
     "ammo": []
@@ -307,6 +332,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 0,
+    "mpfTime": 6000,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
@@ -319,6 +345,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 0,
+    "mpfTime": 6000,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
@@ -331,6 +358,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 0,
+    "mpfTime": 7250,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
@@ -343,6 +371,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 10,
+    "mpfTime": 500,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
@@ -355,6 +384,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 80,
+    "mpfTime": 4000,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["12.7"]
@@ -367,6 +397,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 15,
+    "mpfTime": 750,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": ["7.92"]
@@ -379,6 +410,7 @@
     "emat": 0,
     "hemat": 0,
     "rmat": 10,
+    "mpfTime": 500,
     "craftableInMpf": true,
     "requireTech": true,
     "ammo": []
