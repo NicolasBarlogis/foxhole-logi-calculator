@@ -137,41 +137,41 @@
           </template>
           <template v-slot:item.bmat="{ item }">
             <div v-if="item.bmat > 0">
-              {{ item.bmat * quantities[item.id] }}
+              {{ (item.bmat * quantities[item.id]).toLocaleString() }}
               <img src="icons/bmat.png" alt="bmat" title="bmat" class="mat-icon"/>
             </div>
             <div v-else-if="item.isCategory">
-              {{ getCategoryTotal(item,'bmat') }}
+              {{ getCategoryTotal(item,'bmat').toLocaleString() }}
               <img src="icons/bmat.png" alt="bmat" title="bmat" class="mat-icon"/>
             </div>
           </template>
           <template v-slot:item.emat="{ item }">
             <div v-if="item.emat > 0">
-              {{ item.emat * quantities[item.id] }}
+              {{ (item.emat * quantities[item.id]).toLocaleString() }}
               <img src="icons/emat.png" alt="emat" title="emat" class="mat-icon"/>
             </div>
             <div v-else-if="item.isCategory">
-              {{ getCategoryTotal(item,'emat') }}
+              {{ getCategoryTotal(item,'emat').toLocaleString() }}
               <img src="icons/bmat.png" alt="bmat" title="bmat" class="mat-icon"/>
             </div>
           </template>
           <template v-slot:item.hemat="{ item }">
             <div v-if="item.hemat > 0">
-              {{ item.hemat * quantities[item.id] }}
+              {{ (item.hemat * quantities[item.id]).toLocaleString() }}
               <img src="icons/hemat.png" alt="hemat" title="hemat" class="mat-icon"/>
             </div>
             <div v-else-if="item.isCategory">
-              {{ getCategoryTotal(item,'hemat') }}
+              {{ getCategoryTotal(item,'hemat').toLocaleString() }}
               <img src="icons/bmat.png" alt="bmat" title="bmat" class="mat-icon"/>
             </div>
           </template>
           <template v-slot:item.rmat="{ item }">
             <div v-if="item.rmat > 0">
-              {{ item.rmat * quantities[item.id] }}
+              {{ (item.rmat * quantities[item.id]).toLocaleString() }}
               <img src="icons/rmat.png" alt="rmat" title="rmat" class="mat-icon"/>
             </div>
             <div v-else-if="item.isCategory">
-              {{ getCategoryTotal(item,'rmat') }}
+              {{ getCategoryTotal(item,'rmat').toLocaleString() }}
               <img src="icons/bmat.png" alt="bmat" title="bmat" class="mat-icon"/>
             </div>
           </template>
